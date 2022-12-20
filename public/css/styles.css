@@ -1,0 +1,59 @@
+@import url(https://fonts.google.com/specimen/Be+Vietnam+Pro);
+:root {
+  --brightRed: hsl(12, 88%, 58%)
+  --darkBlue: hsl(228, 39%, 23%)
+  // ---------------- neutral colors -------------------
+  --darkGrayishBlue: hsl(227,12%,61%)
+  --veryDarkBlue: hsl(233,12%,13%)
+  --veryPaleRed: hsl(13,100%,96%)
+  --varyLightGray: hsl(0, 0%, 98%)
+  // --------------- typography -----------------------
+  --fontSize: 16px
+  --lightFont: 400
+  --mediumFont: 500
+  --heavyFont: 700 ;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+body {
+  min-height: 100vh;
+  line-height: 1;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: --lightFont;
+  font-size: 100%;
+}
+
+li {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}/*# sourceMappingURL=styles.css.map */
