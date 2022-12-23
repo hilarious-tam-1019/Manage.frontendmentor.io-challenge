@@ -1,0 +1,13 @@
+nav {
+  margin: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid black;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+}
