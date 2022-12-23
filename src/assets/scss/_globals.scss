@@ -89,11 +89,6 @@ a {
   text-decoration: none;
 }
 
-ol,
-ul {
-  list-style: none;
-}
-
 /* Utility classes */
 .text-primary-400 {
   color: var(--clr-primary-400);
@@ -149,4 +144,12 @@ ul {
 
 .fs-600 {
   font-size: var(--fs-600);
+}
+
+.bg-cta-accent-400 {
+  background: var(--clr-accent-400);
+}
+
+.bg-footer-neutral-100 {
+  background: var(--clr-neutral-100);
 }
