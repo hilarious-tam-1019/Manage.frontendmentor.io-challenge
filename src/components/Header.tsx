@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import logo from '../assets/images/logo.svg';
+import { Button } from '../utils/Button';
 
 const navList = ['Pricing', 'Product', 'About Us', 'Careers', 'Community'];
 
@@ -36,20 +37,6 @@ const StyledAchorTag = styled.a`
   }
 `;
 
-const StyledButton = styled.button`
-  height: 100%;
-  background: ${(props) => props.theme.brightRed};
-  color: ${(props) => props.theme.white};
-  font-size: 1.3rem;
-  padding: 1.2rem 3.2rem;
-  border-radius: 2.2rem;
-  box-shadow: 4px 6px 6px rgba(242, 95, 58, 0.2);
-  transition: all 0.3s;
-  &:hover {
-    filter: brightness(1.4);
-  }
-`;
-
 export const Header = () => {
   return (
     <StyledWrapper>
@@ -61,7 +48,7 @@ export const Header = () => {
           <StyledAchorTag>{item}</StyledAchorTag>
         ))}
       </StyledList>
-      <StyledButton>Get Started</StyledButton>
+      <Button>Get Started</Button>
     </StyledWrapper>
   );
 };

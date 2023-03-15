@@ -1,5 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { Header } from './components/Header';
+import { Hero } from './components/Hero';
 
 // Types
 type ThemeType = {
@@ -82,6 +83,7 @@ export const App = () => {
       <GlobalStyle />
       <main>
         <Header />
+        <Hero />
       </main>
     </ThemeProvider>
   );
